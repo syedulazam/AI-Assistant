@@ -1,0 +1,8 @@
+{
+  "PINECONE_API_KEY": "30604c94-4fff-4df5-8369-194dc82bb179",
+  "LLAMA_API_KEY": "78abe485b8d841bbbdaa889fd99c631b",
+  "LLAMA_MODEL_NAME": "meta-llama/Llama-2-7b-chat-hf",
+  "GEMINI_API_KEY": "AIzaSyBHo0wUb6gmA9EfIpChqdQHhCU9x7ceQeU",
+  "OPENAI_API_KEY": "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",
+  "COPILOT_API_KEY": "11f222c6bafc49c8a44e338bc6401400.06da78a42028edb8"
+}
