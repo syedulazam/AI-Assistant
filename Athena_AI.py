@@ -68,15 +68,15 @@ print((PINECONE_API_KEY))  # This should print your Pinecone API key
 
 pinecone = Pinecone(api_key=PINECONE_API_KEY)
 
-pinecone.create_index(
-    name="aai",
-    dimension=1536,
-    metric="cosine",
-    spec=ServerlessSpec(
-        cloud="aws",
-        region="us-east-1"
-    )
-)
+# pinecone.create_index(
+#     name="aai",
+#     dimension=1536,
+#     metric="cosine",
+#     spec=ServerlessSpec(
+#         cloud="aws",
+#         region="us-east-1"
+#     )
+# )
 
 index = pinecone.Index("aai")
 
